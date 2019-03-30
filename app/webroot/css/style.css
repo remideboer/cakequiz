@@ -1,0 +1,63 @@
+/* 
+    Created on : 29-mrt-2019, 10:53:18
+    Author     : Rémi de Boer <remideboer@yahoo.com>
+*/
+.highlight-text-color {
+    color: blueviolet;
+}
+
+.mark {
+    margin-right: 10px;
+    display: inline-block;
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    border-style: dashed;
+    border: 1px solid gray;
+}
+
+.correct {
+    background-color: greenyellow;
+}
+
+.center{
+    width: 60%;
+    margin: auto;
+}
+
+.question-button {
+    background-color: blueviolet;
+    height: 100px;
+    width: 49%;
+    border-style: dashed;
+    border: 1px solid yellow;
+    color: yellow;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.margin-container {
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
+.container-question-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.question-text{
+    font-size: 1.5em;
+    background-color: #f2f2f2;
+}
+
+.end-box {
+    height: 300px;
+    text-align: center;
+}
+
+.center-text {
+    text-align: center;
+}
