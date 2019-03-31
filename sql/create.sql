@@ -123,7 +123,7 @@ VALUES
 (20, '840'); 
 
 INSERT INTO `questions` (`id`,`text`, `correct_answer_id`) 
-VALUES (5, 'Vijftig procent van 84 appels heet rotte plekken. Hoeveel appels zijn er helemaal gaaf?', 19); 
+VALUES (5, 'Vijftig procent van 84 appels heeft rotte plekken. Hoeveel appels zijn er helemaal gaaf?', 19); 
 
 INSERT INTO `answers_questions` (`answer_id`, `question_id`)
 VALUES
