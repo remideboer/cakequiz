@@ -1,6 +1,8 @@
 # CakeQuiz
 Rendition of a simple quiz assignment
 
+A live version can be found at: https://www.remideboer.com/quiz/
+
 ### Database notes
 Make sure to uncomment 'encoding' => 'utf8' in app/Config/database.php
 

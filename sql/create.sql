@@ -150,5 +150,77 @@ VALUES
 (23, 6),
 (24, 6);
 
+# vraag 7
+INSERT INTO `answers` (`id`,`text`) 
+VALUES  
+(25, '8'),
+(26, '6'), 
+(27, '30'), 
+(28, '18'); 
 
+INSERT INTO `questions` (`id`,`text`, `correct_answer_id`) 
+VALUES (7, 'In de groep van meester Zeilstra zitten 24 kinderen. Op een dag is 1/4 deel ziek. Hoeveel kinderen zijn er die dag in de klas?', 28); 
 
+INSERT INTO `answers_questions` (`answer_id`, `question_id`)
+VALUES
+(25, 7),
+(26, 7),
+(27, 7),
+(28, 7);
+
+# vraag 8
+INSERT INTO `answers` (`id`,`text`) 
+VALUES  
+(29, 'meer dan 1 m'),
+(30, 'minder dan 70 cm'), 
+(31, 'precies 1 m'), 
+(32, '75 cm'); 
+
+INSERT INTO `questions` (`id`,`text`, `correct_answer_id`) 
+VALUES (8, 'Acht meisjes verdelen een stuk touw van 6 meter. Hoeveel krijgt elk meisje?', 32); 
+
+INSERT INTO `answers_questions` (`answer_id`, `question_id`)
+VALUES
+(29, 8),
+(30, 8),
+(31, 8),
+(32, 8);
+
+# vraag 9
+INSERT INTO `answers` (`id`,`text`) 
+VALUES  
+(33, 'Bas'),
+(34, 'Scott'), 
+(35, 'Jelle'), 
+(36, 'Edwin'); 
+
+INSERT INTO `questions` (`id`,`text`, `correct_answer_id`) 
+VALUES (9, 'Edwin, Jelle, Bas en Scott verdelen 72 kastanjes. Edwin krijgt 1/6 deel,
+Bas 2/9 deel, Scott 3/8 deel en Jelle de rest. Wie krijgt de meeste kastanjes?', 34); 
+
+INSERT INTO `answers_questions` (`answer_id`, `question_id`)
+VALUES
+(33, 9),
+(34, 9),
+(35, 9),
+(36, 9);
+
+# vraag 10
+INSERT INTO `answers` (`id`,`text`) 
+VALUES  
+(37, '3 uur'),
+(38, '3 en 40 min.'), 
+(39, '1 uur en 50 min.'), 
+(40, '1 uur en 30 min.'); 
+
+INSERT INTO `questions` (`id`,`text`, `correct_answer_id`) 
+VALUES (10, 'Meneer Ypenburg rijdt met de auto van Delft naar Zwolle en terug.
+De afstand Delft - Zwolle is 135 km. Hij rijdt gemiddeld 90 km per uur.
+Hoe lang doet hij over de heen- en terugreis?', 37); 
+
+INSERT INTO `answers_questions` (`answer_id`, `question_id`)
+VALUES
+(37, 10),
+(38, 10),
+(39, 10),
+(40, 10);
